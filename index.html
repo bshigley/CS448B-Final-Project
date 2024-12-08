@@ -8,6 +8,6 @@ import define from "https://api.observablehq.com/d/47db28e607e908a9@469.js?v=4";
 new Runtime().module(define, name => {
   // This will only render the output, not the code cells
   console.log(name);
-  return name ? Inspector.into("#observablehq-b2279201") : null;
+  return name ? null : Inspector.into("#observablehq-b2279201");
 });
 </script>
